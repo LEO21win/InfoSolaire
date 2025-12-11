@@ -1,0 +1,551 @@
+
+/* SOARE NICOLAE */
+
+.Saturne_Surface {
+  background-image: url(../images/saturnINSpace.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+
+/* .Saterature {
+  background-image: url(../images/saturne_surface.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+} */
+/* .spaceship {
+
+    margin: 24px auto;
+} */
+
+body {
+  background-color: black;
+}
+.vaisseauVide {
+  position: relative;
+  background: url("../images/vaisseau_vide.jfif") no-repeat center/cover;
+  height: 100vh;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.controlPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ height: 1000px;
+ width: 1000px;
+  padding: 20px;
+}
+
+.SaturneDes {
+  background-color: rgba(108, 226, 255, 0.281);
+  /* width: 900px;
+  height: 1000px; */
+  margin: 24px auto;
+  text-align: center;
+  color: white;
+  width: 400px;
+  height: 600px;
+  /* overflow-x: hidden; */
+  overflow-y: auto;
+  
+  /* padding: 20px; */
+  color: white;
+  border: 2px solid #444;
+  border-radius: 8px;
+}
+.ImageSaturneNor {
+background: url(../images/Saturne_in_water.jfif)no-repeat center/cover;;
+height: 400px;
+width: 400px;
+margin: 20px;
+
+}
+.ImageSaturneNor2 {
+background: url(../images/SaturnStinky.jfif)no-repeat center/cover;;
+height: 400px;
+width: 400px;
+margin: 20px;
+
+}
+.vidSaturn {
+background: url(../video/129938-745943774_small.mp4)no-repeat center/cover;;
+height: 20000px;
+width: 16000px;
+margin: 20px;
+
+}
+
+
+
+
+.docJupiter {
+position: absolute;
+top: 400px;
+left: 900px;
+}
+
+
+.docJupiter img{
+  width: 100px;
+}
+
+
+
+.docSaturne {
+position: absolute;
+top: 500px;
+left: 250px;
+}
+
+
+.docSaturne img{
+  width: 170px;
+}
+
+
+.docUranus {
+position: absolute;
+top: 670px;
+left: 650px;
+}
+
+
+.docUranus img{
+  width: 270px;
+}
+
+
+.docMars {
+position: absolute;
+top: 200px;
+left: 450px;
+}
+
+
+.docMars img{
+  width: 120px;
+}
+
+.docMercure {
+position: absolute;
+top: 60px;
+left: 150px;
+}
+
+
+.docMercure img{
+  width: 120px;
+}
+
+.BigRedButton {
+position: absolute;
+top: 445px;
+left: 100px;
+
+}
+
+.window {
+position: absolute;
+top: 375px;
+left: 390px;
+height: 220px;
+width: 220px;
+border-radius: 50%;
+}
+
+.window:hover {
+  background-color: rgba(91, 119, 119, 0.384);
+}
+
+.porte {
+position: absolute;
+top: 450px;
+left: 810px;
+height: 200px;
+width: 100px;
+border-radius: 7px;
+}
+
+.porte:hover {
+  background-color: rgba(91, 119, 119, 0.384);
+}
+
+.lit {
+position: absolute;
+top: 680px;
+left: 450px;
+height: 140px;
+width: 100px;
+border-radius: 7px;
+}
+
+.lit:hover {
+  background-color: rgba(91, 119, 119, 0.384);
+}
+
+
+
+.floating {
+  transform: translate(-50%, -50%);
+  animation: float 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-20px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+}
+
+
+.uranusDes {
+  background-color: rgba(108, 226, 255, 0.281);
+  /* width: 900px;
+  height: 1000px; */
+  margin: 24px auto;
+  text-align: center;
+  color: white;
+  width: 450px;
+  height: 600px;
+  /* overflow-x: hidden; */
+  overflow-y: auto;
+  
+  /* padding: 20px; */
+  color: white;
+  border: 2px solid #444;
+  border-radius: 8px;
+}
+
+.uranus_Surface {
+  background-image: url(../images/uranusInSpace.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+.ImageuranusNor {
+background: url(../images/dave.jfif)no-repeat center/cover;;
+height: 400px;
+width: 400px;
+margin: 20px;
+}
+
+.ImageuranusNor2 {
+background: url(../images/sleepUranus.jfif)no-repeat center/cover;;
+height: 400px;
+width: 400px;
+margin: 20px;
+}
+
+.medbay {
+  background-image: url(../images/medbay.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+.medbayDes {
+  background-color: rgba(108, 226, 255, 0.281);
+  /* width: 900px;
+  height: 1000px; */
+  margin: 24px auto;
+  text-align: center;
+  color: white;
+  width: 450px;
+  height: 600px;
+  /* overflow-x: hidden; */
+  overflow-y: auto;
+  
+  /* padding: 20px; */
+  color: white;
+  border: 2px solid #444;
+  border-radius: 8px;
+}
+
+.medbayNor {
+background: url(../images/gymInSpace.jfif)no-repeat center/cover;;
+height: 400px;
+width: 400px;
+margin: 20px;
+}
+
+.medbayNor2 {
+background: url(../images/evilSun.jfif)no-repeat center/cover;;
+height: 400px;
+width: 400px;
+margin: 20px;
+}
+
+    /* DIRAISON LÉO */
+
+@font-face {
+    font-family:'spaceman';
+    src: url("../fonts/space\ age.ttf")  ;
+}
+
+.button{
+    font-size: 30px;
+    font-family: 'spaceman';
+    color: white;
+    position: relative;
+    border: solid 2px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: black;
+
+
+}
+
+    /* fusee */
+
+.fusee{
+    background: url("../images/etoiles.jpg");
+    color: white;
+}
+
+.content {
+    display: flex;
+}
+
+.titre {
+    font-size: 50px;
+    font-family: 'spaceman';
+    align-content: center;
+    border: solid 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.fuseep:hover {
+    margin-left: 500px;
+    border-radius: 50px;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5);
+    transition: 0.3s ease;
+}
+
+#inf {
+    position: absolute;
+    font-size: 25px;
+    background-color: rgba(0, 195, 255, 0.644);
+    margin-left: 1000px;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content2 {
+    display: flex;
+}
+
+#fuseegif {
+    border: solid white;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#inf2{
+    position: absolute;
+    font-size: 30px;
+    background-color: rgba(0, 195, 255, 0.644);
+    margin-left: 800px;
+    margin-top:0px;
+    margin-right: 50px;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    /* mercure */
+
+.mercure {
+    background: url(../images/mercure.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.content3 {
+    display: flex;
+}
+
+.titre2 {
+    font-size: 50px;
+    font-family: 'spaceman';
+    align-content: center;
+    border: solid 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+#inf3 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 253, 253);
+    background-color: rgba(0, 195, 255, 0.644);
+    margin-left: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mercuregif {
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.inf4{
+    background-color: rgba(0, 195, 255, 0.644);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    overflow-y: auto;
+    border: solid 2px;
+    word-spacing: 30px;
+}
+    
+    /* fonctionnalité de la station spatiale */
+
+.fonctionnaliteSP{
+    background: url(../images/stationspatiale.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.content5{
+    display: flex;
+}
+
+.titre3 {
+    font-size: 50px;
+    font-family: 'spaceman';
+    align-content: center;
+    border: solid 2px;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+#inf5 {
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 253, 253);
+    background-color: rgba(0, 195, 255, 0.644);
+    margin-right: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.content6 {
+   display: flex;
+    justify-content: end;
+
+}
+
+#inf6 {
+   
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 195, 255, 0.644);
+    align-content: center;
+    margin-left: 900px;
+    margin-bottom: 500px;
+    overflow-y: auto;
+    border: solid 2px;
+    word-spacing: 30px;
+}
+    
+    /* LIU ZIMU */
+
+.Bjupiter {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #ffffff;
+      line-height: 1.6;
+      background: url('https://i.natgeofe.com/k/370b38d7-3a09-4d71-905e-fbd93bd28594/jupiter-planet.jpg?wp=1&w=1084.125&h=609') no-repeat center center fixed; background-size: cover;
+    }
+
+    .jupiter {
+      background: rgb(71, 40, 4);
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+      font-size: 1.5rem;
+      color: #ffdd8a;
+    }
+    
+    .ensemble {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .boite {
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+.marspage{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  line-height: 1.6;
+  background: url('https://www.nhm.ac.uk/content/dam/nhm-www/discover/planet-mars/mars-factfile-red-planet-full-width.jpg.thumb.960.960.png') no-repeat center center fixed; background-size: cover;
+   }
+
+.mars{
+  background: rgb(165, 50, 4);
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+      font-size: 1.5rem;
+      color: #ffdd8a;}
+
+.retourpage{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  line-height: 1.6;
+  background: url('https://media.wired.com/photos/5d5189cf546bca00089dab35/3:2/w_1600%2Cc_limit/Science_Electron-1.jpg') no-repeat center center fixed; background-size: cover;
+   }
+
+.retour{
+  background: black;
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+      font-size: 1.5rem;
+      color: white;}
